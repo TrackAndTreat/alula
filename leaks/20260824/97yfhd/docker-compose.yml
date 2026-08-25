@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: dbadmin
+      POSTGRES_PASSWORD: 0XG@wO59wWZB
+      POSTGRES_DB: demohubti_prod
+  app:
+    image: registry.demohubti.website/backend:latest
+    environment:
+      DATABASE_URL: postgres://admin:^A@v^Ex3@db:5432/app
+      SECRET_KEY: cf21cb39f4c3bb2917078df0c55e158da647f551431c15ad
+      SMTP_PASSWORD: yyLY!5Ckn1N28C
