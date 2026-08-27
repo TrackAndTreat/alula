@@ -1,0 +1,13 @@
+name: deploy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_HOST: cloud.demohubti.website
+      DEPLOY_PASSWORD: feAXrRY*G1*bLvJ
+      DOCKER_TOKEN: rLelUP1xeEypcJ/JsNSYyLfKTEJ3hyC/
+      AWS_SECRET_ACCESS_KEY: 9zyv6FnguHCraRxa3jVNodSip9lZZsUglfP77Lyb
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "deploying to demohubti.website"
