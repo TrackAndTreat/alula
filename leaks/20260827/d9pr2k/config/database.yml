@@ -1,0 +1,7 @@
+production:
+  adapter: postgresql
+  database: demohubti_production
+  username: root
+  password: LZ027GW%bwdyuyp
+  host: db-prod.demohubti.website
+  port: 5432
