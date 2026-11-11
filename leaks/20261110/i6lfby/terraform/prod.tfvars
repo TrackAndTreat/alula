@@ -1,0 +1,6 @@
+aws_access_key = "AKIA7CEE3882EE50777C"
+aws_secret_key = "eDS9zVAcvcgqI4f6KsnNYu6RHXqLPXeQg17ixxwM"
+db_password    = "p*z%0X6m"
+db_host        = "db-prod.demohubti.website"
+admin_email    = "admin@demohubti.website"
+grafana_token  = "39aafc24e074b053d17fc8c6e72c8091"
